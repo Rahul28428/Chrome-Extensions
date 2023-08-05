@@ -10,7 +10,7 @@ To get started, follow these steps:
 1. **Clone the Repository:** Clone this repository to your local machine using the following command:
 
    ```bash
-   git clone [https://github.com/your-username/Chrome-Extensions.git](https://github.com/Rahul28428/Chrome-Extensions.git)
+   git clone https://github.com/your-username/Chrome-Extensions.git](https://github.com/Rahul28428/Chrome-Extensions.git
    ```
 
 2. **Navigate to Extension Folder:** Go to the folder of the extension you want to test:
