@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .popup {
+    width: 300px;
+    height: 200px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    z-index: 9999;
+  }
+  
+  .popup h1 {
+    margin: 0;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: normal;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .popup p {
+    margin: 0;
+    padding: 10px;
+    font-size: 16px;
+    line-height: 1.4;
+    overflow-y: auto;
+    max-height: 140px;
+  }
+  
+  .close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .close:hover {
+    color: #000;
+  }
+  
+  #search-input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #search-button {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 14px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #search-button:hover {
+    background-color: #3e8e41;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .show {
+    display: block;
+  }
+  

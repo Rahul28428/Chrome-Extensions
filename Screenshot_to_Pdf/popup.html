@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Image to PDF Converter</title>
+  <script src="popup.js"></script>
+  <script src="jspdf.umd.min.js"></script>
+  <style>
+    button {
+      margin: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h2>Image to PDF Converter</h2>
+  <button id="captureBtn">Capture Image</button>
+  <button id="generateBtn">Generate PDF</button>
+  <a id="downloadLink" href="#" download="converted_images.pdf" style="display: none;">Download PDF</a>
+</body>
+</html>

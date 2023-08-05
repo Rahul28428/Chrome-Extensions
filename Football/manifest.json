@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Football Scores",
+  "version": "1.0",
+  "description": "Displays live scores and timings of upcoming football matches.",
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "permissions": ["https://api.football-data.org/"],
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  }
+}

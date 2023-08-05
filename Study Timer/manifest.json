@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+    "name": "Study Timer",
+    "version": "1.0",
+    "description": "A timer for study and break periods.",
+    "icons": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    },
+    "permissions": ["alarms"],
+    "browser_action": {
+      "default_icon": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+      },
+      "default_popup": "popup.html"
+    },
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    }
+  }
+  
